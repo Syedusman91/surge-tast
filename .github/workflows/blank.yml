@@ -34,8 +34,8 @@ jobs:
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
-      - name: insatall surge
-        run: npm intall -g surge
+      - name: install surge
+        run: npm install -g surge
         
       - name: deploy website on surge
         run: surge./https://exultant-crayon.surge.sh --token $token
